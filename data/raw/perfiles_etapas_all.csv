@@ -1,4 +1,4 @@
-﻿Carrera,Año,Date,Stage,Route,Vertical meters,ProfileScore,PS final 25k,Image
+﻿Carrera,Año,Date,Stage,Route,Vertical_meters,ProfileScore,PS_final_25k,Image
 Giro,2015,Date09/05,StageStage 1 (TTT),San Lorenzo Mare - Sanremo (17.6 km),Vertical meters83,ProfileScore2,PS final 25k2,images/profiles/ap/ae/giro-d-italia-2015-stage-1-profile-n2-bb455b6c83.jpg
 Giro,2015,Date10/05,StageStage 2,Albenga - Genova (177 km),Vertical meters1868,ProfileScore58,PS final 25k11,images/profiles/ap/aa/giro-d-italia-2015-stage-2-profile-n2-c53d479c18.jpg
 Giro,2015,Date11/05,StageStage 3,Rapallo - Sestri Levante (136 km),Vertical meters2797,ProfileScore117,PS final 25k1,images/profiles/ap/fe/giro-d-italia-2015-stage-3-profile-n2-9d36704d6e.jpg
@@ -10,7 +10,7 @@ Giro,2015,Date16/05,StageStage 8,Fiuggi - Campitello Matese (186 km),Vertical me
 Giro,2015,Date17/05,StageStage 9,Benevento - San Giorgio del Sannio (224 km),Vertical meters4264,ProfileScore170,PS final 25k63,images/profiles/ap/af/giro-d-italia-2015-stage-9-profile-n2-32608d14d1.jpg
 Giro,2015,Date19/05,StageStage 10,Civitanova Marche - Forlì (200 km),Vertical meters841,ProfileScore10,PS final 25k0,images/profiles/ap/da/giro-d-italia-2015-stage-10-profile-n2-7ee4971c22.jpg
 Giro,2015,Date20/05,StageStage 11,Forlì - Imola (153 km),Vertical meters2949,ProfileScore136,PS final 25k31,images/profiles/ap/fd/giro-d-italia-2015-stage-11-profile-n2-94e3b0bf54.jpg
-Giro,2015,Date21/05,StageStage 12,Imola - Vicenza (Monte Berico) (190 km),Vertical meters1288,ProfileScore111,PS final 25k37,images/profiles/ap/db/giro-d-italia-2015-stage-12-profile-n2-b03b2764b7.jpg
+Giro,2015,Date21/05,StageStage 12,Imola - Vicenza Monte Berico (190 km),Vertical meters1288,ProfileScore111,PS final 25k37,images/profiles/ap/db/giro-d-italia-2015-stage-12-profile-n2-b03b2764b7.jpg
 Giro,2015,Date22/05,StageStage 13,Montecchio Maggiore - Lido di Jesolo (147 km),Vertical meters131,ProfileScore0,PS final 25k0,images/profiles/ap/be/giro-d-italia-2015-stage-13-profile-n2-27b0e48877.jpg
 Giro,2015,Date23/05,StageStage 14 (ITT),Treviso - Valdobbiadene (59.4 km),Vertical meters593,ProfileScore32,PS final 25k21,images/profiles/ap/ac/giro-d-italia-2015-stage-14-profile-n2-ccc62fa45a.jpg
 Giro,2015,Date24/05,StageStage 15,Marostica - Madonna di Campiglio (165 km),Vertical meters4634,ProfileScore329,PS final 25k129,images/profiles/ap/dd/giro-d-italia-2015-stage-15-profile-n2-18c41ef6c2.jpg
@@ -25,7 +25,7 @@ Giro,2016,Date07/05,StageStage 2,Arnhem - Nijmegen  (190 km),Vertical meters732,
 Giro,2016,Date08/05,StageStage 3,Nijmegen - Arnhem (190 km),Vertical meters691,ProfileScore6,PS final 25k1,images/profiles/ap/ba/giro-d-italia-2016-stage-3-profile-n2-3f62867dee.jpg
 Giro,2016,Date10/05,StageStage 4,Catanzaro - Praia a Mare (200 km),Vertical meters2418,ProfileScore121,PS final 25k62,images/profiles/ap/be/giro-d-italia-2016-stage-4-profile-n2-807bac77d1.jpg
 Giro,2016,Date11/05,StageStage 5,Praia a Mare - Benevento (233 km),Vertical meters3459,ProfileScore105,PS final 25k11,images/profiles/ap/bf/giro-d-italia-2016-stage-5-profile-n2-94b3b73fcc.jpg
-Giro,2016,Date12/05,StageStage 6,Ponte - Roccaraso (Aremogna) (157 km),Vertical meters3749,ProfileScore233,PS final 25k109,images/profiles/ap/ce/giro-d-italia-2016-stage-6-profile-n2-78dea6e37d.jpg
+Giro,2016,Date12/05,StageStage 6,Ponte - Roccaraso Aremogna (157 km),Vertical meters3749,ProfileScore233,PS final 25k109,images/profiles/ap/ce/giro-d-italia-2016-stage-6-profile-n2-78dea6e37d.jpg
 Giro,2016,Date13/05,StageStage 7,Sulmona - Foligno (211 km),Vertical meters2301,ProfileScore67,PS final 25k0,images/profiles/ap/dd/giro-d-italia-2016-stage-7-profile-n2-3fe779da11.jpg
 Giro,2016,Date14/05,StageStage 8,Foligno - Arezzo (186 km),Vertical meters1985,ProfileScore112,PS final 25k70,images/profiles/ap/da/giro-d-italia-2016-stage-8-profile-n2-d88cff5782.jpg
 Giro,2016,Date15/05,StageStage 9 (ITT),Radda in Chianti - Greve in Chianti (40.5 km),Vertical meters561,ProfileScore34,PS final 25k22,images/profiles/ap/be/giro-d-italia-2016-stage-9-profile-n2-c3605f945f.jpg
@@ -33,7 +33,7 @@ Giro,2016,Date17/05,StageStage 10,Campi Bisenzio - Sestola (219 km),Vertical met
 Giro,2016,Date18/05,StageStage 11,Modena - Asolo (227 km),Vertical meters777,ProfileScore61,PS final 25k61,images/profiles/ap/cc/giro-d-italia-2016-stage-11-profile-n2-312a627909.jpg
 Giro,2016,Date19/05,StageStage 12,Noale - Bibione  (182 km),Vertical meters122,ProfileScore0,PS final 25k0,images/profiles/ap/dc/giro-d-italia-2016-stage-12-profile-n2-44881f2408.jpg
 Giro,2016,Date20/05,StageStage 13,Palmanova - Cividale del Friuli (170 km),Vertical meters3669,ProfileScore250,PS final 25k81,images/profiles/ap/bd/giro-d-italia-2016-stage-13-profile-n2-04afbfc374.jpg
-Giro,2016,Date21/05,StageStage 14,Alpago - Corvara (Alta Badia) (210 km),Vertical meters6001,ProfileScore361,PS final 25k81,images/profiles/ap/bf/giro-d-italia-2016-stage-14-profile-n3-d7fcdb27ad.jpg
+Giro,2016,Date21/05,StageStage 14,Alpago - Corvara Alta Badia (210 km),Vertical meters6001,ProfileScore361,PS final 25k81,images/profiles/ap/bf/giro-d-italia-2016-stage-14-profile-n3-d7fcdb27ad.jpg
 Giro,2016,Date22/05,StageStage 15 (ITT),Castelrotto  - Alpe di Siusi  (10.8 km),Vertical meters785,ProfileScore152,PS final 25k152,images/profiles/ap/db/giro-d-italia-2016-stage-15-profile-n2-757da76253.jpg
 Giro,2016,Date24/05,StageStage 16,Bressanone  - Andalo (132 km),Vertical meters2737,ProfileScore236,PS final 25k155,images/profiles/ap/ff/giro-d-italia-2016-stage-16-profile-n2-fc23aad9ff.jpg
 Giro,2016,Date25/05,StageStage 17,Molveno  - Cassano d'Adda  (196 km),Vertical meters1567,ProfileScore35,PS final 25k1,images/profiles/ap/bf/giro-d-italia-2016-stage-17-profile-n2-173904afff.jpg
@@ -66,7 +66,7 @@ Giro,2018,Date04/05,StageStage 1 (ITT),Jerusalem - Jerusalem (9.7 km),Vertical m
 Giro,2018,Date05/05,StageStage 2,Haifa - Tel Aviv (167 km),Vertical meters988,ProfileScore9,PS final 25k0,images/profiles/ap/fc/giro-d-italia-2018-stage-2-profile-n4-d5fafe287c.jpg
 Giro,2018,Date06/05,StageStage 3,Be'er Sheva - Eilat (229 km),Vertical meters1771,ProfileScore16,PS final 25k0,images/profiles/ap/dd/giro-d-italia-2018-stage-3-profile-n3-5727fa1d0c.jpg
 Giro,2018,Date08/05,StageStage 4,Catania - Caltagirone (202 km),Vertical meters3428,ProfileScore111,PS final 25k37,images/profiles/ap/cb/giro-d-italia-2018-stage-4-profile-n4-989e133820.jpg
-Giro,2018,Date09/05,StageStage 5,Agrigento - Santa Ninfa (Valle del Belice) (153 km),Vertical meters2237,ProfileScore97,PS final 25k50,images/profiles/ap/fc/giro-d-italia-2018-stage-5-profile-n3-fb98371ba7.jpg
+Giro,2018,Date09/05,StageStage 5,Agrigento - Santa Ninfa Valle del Belice (153 km),Vertical meters2237,ProfileScore97,PS final 25k50,images/profiles/ap/fc/giro-d-italia-2018-stage-5-profile-n3-fb98371ba7.jpg
 Giro,2018,Date10/05,StageStage 6,Caltanissetta - Etna (164 km),Vertical meters3307,ProfileScore241,PS final 25k193,images/profiles/ap/cb/giro-d-italia-2018-stage-6-profile-n3-b996aeefe6.jpg
 Giro,2018,Date11/05,StageStage 7,Pizzo - Praia a Mare (159 km),Vertical meters1023,ProfileScore29,PS final 25k11,images/profiles/ap/ca/giro-d-italia-2018-stage-7-profile-n3-254cdba3b7.jpg
 Giro,2018,Date12/05,StageStage 8,Praia a Mare - Montevergine di Mercogliano (209 km),Vertical meters3248,ProfileScore171,PS final 25k111,images/profiles/ap/fe/giro-d-italia-2018-stage-8-profile-n3-eec8979756.jpg
@@ -80,7 +80,7 @@ Giro,2018,Date20/05,StageStage 15,Tolmezzo - Sappada (176 km),Vertical meters411
 Giro,2018,Date22/05,StageStage 16 (ITT),Trento - Rovereto  (34.2 km),Vertical meters223,ProfileScore9,PS final 25k8,images/profiles/ap/bf/giro-d-italia-2018-stage-16-profile-n3-8889c79076.jpg
 Giro,2018,Date23/05,StageStage 17,Riva del Garda - Iseo (155 km),Vertical meters2040,ProfileScore55,PS final 25k10,images/profiles/ap/df/giro-d-italia-2018-stage-17-profile-n3-d72fafa408.jpg
 Giro,2018,Date24/05,StageStage 18,Abbiategrasso - Prato Nevoso (196 km),Vertical meters2314,ProfileScore185,PS final 25k161,images/profiles/ap/cf/giro-d-italia-2018-stage-18-profile-n3-a5de0c369d.jpg
-Giro,2018,Date25/05,StageStage 19,Venaria Reale - Bardonecchia (Jafferau) (184 km),Vertical meters5216,ProfileScore313,PS final 25k153,images/profiles/ap/aa/giro-d-italia-2018-stage-19-profile-n3-35c7acaee2.jpg
+Giro,2018,Date25/05,StageStage 19,Venaria Reale - Bardonecchia Jafferau (184 km),Vertical meters5216,ProfileScore313,PS final 25k153,images/profiles/ap/aa/giro-d-italia-2018-stage-19-profile-n3-35c7acaee2.jpg
 Giro,2018,Date26/05,StageStage 20,Susa - Cervinia (214 km),Vertical meters4254,ProfileScore351,PS final 25k136,images/profiles/ap/bb/giro-d-italia-2018-stage-20-profile-n4-29833953e0.jpg
 Giro,2018,Date27/05,StageStage 21,Roma - Roma (115 km),Vertical meters897,ProfileScore20,PS final 25k8,images/profiles/ap/ab/giro-d-italia-2018-stage-21-profile-n3-a1e231ff01.jpg
 Giro,2019,Date11/05,StageStage 1 (ITT),Bologna - Madonna di San Luca (8 km),Vertical meters291,ProfileScore39,PS final 25k39,images/profiles/ap/aa/giro-d-italia-2019-stage-1-profile-ca38cc356e.jpg
@@ -95,11 +95,11 @@ Giro,2019,Date19/05,StageStage 9 (ITT),Riccione - San Marino (34.8 km),Vertical 
 Giro,2019,Date21/05,StageStage 10,Ravenna - Modena (145 km),Vertical meters160,ProfileScore1,PS final 25k1,images/profiles/ap/ff/giro-d-italia-2019-stage-10-profile-e88e3cfb82.jpg
 Giro,2019,Date22/05,StageStage 11,Carpi - Novi Ligure (221 km),Vertical meters476,ProfileScore0,PS final 25k0,images/profiles/ap/fe/giro-d-italia-2019-stage-11-profile-d35069452d.jpg
 Giro,2019,Date23/05,StageStage 12,Cuneo - Pinerolo (158 km),Vertical meters1918,ProfileScore131,PS final 25k11,images/profiles/ap/ca/giro-d-italia-2019-stage-12-profile-471a5ec0eb.jpg
-Giro,2019,Date24/05,StageStage 13,Pinerolo - Ceresole Reale (Lago Serrù) (196 km),Vertical meters5187,ProfileScore377,PS final 25k218,images/profiles/ap/bc/giro-d-italia-2019-stage-13-profile-31b11d75b4.jpg
-Giro,2019,Date25/05,StageStage 14,Saint Vincent - Courmayeur (Skyway Monte Bianco) (131 km),Vertical meters4187,ProfileScore330,PS final 25k39,images/profiles/ap/bb/giro-d-italia-2019-stage-14-profile-1ebce04273.jpg
+Giro,2019,Date24/05,StageStage 13,Pinerolo - Ceresole Reale Lago Serrù (196 km),Vertical meters5187,ProfileScore377,PS final 25k218,images/profiles/ap/bc/giro-d-italia-2019-stage-13-profile-31b11d75b4.jpg
+Giro,2019,Date25/05,StageStage 14,Saint Vincent - Courmayeur Skyway Monte Bianco (131 km),Vertical meters4187,ProfileScore330,PS final 25k39,images/profiles/ap/bb/giro-d-italia-2019-stage-14-profile-1ebce04273.jpg
 Giro,2019,Date26/05,StageStage 15,Ivrea - Como (232 km),Vertical meters3122,ProfileScore214,PS final 25k93,images/profiles/ap/ad/giro-d-italia-2019-stage-15-profile-90d0c19a5b.jpg
 Giro,2019,Date28/05,StageStage 16,Lovere - Ponte di Legno (194 km),Vertical meters5207,ProfileScore334,PS final 25k29,images/profiles/ap/ab/giro-d-italia-2019-stage-16-profile-n2-cc0c820817.jpg
-Giro,2019,Date29/05,StageStage 17,Commezzadura (Val di Sole) - Anterselva / Antholz (181 km),Vertical meters3482,ProfileScore221,PS final 25k106,images/profiles/ap/aa/giro-d-italia-2019-stage-17-profile-n2-622cc9e33e.jpg
+Giro,2019,Date29/05,StageStage 17,Commezzadura Val di Sole - Anterselva / Antholz (181 km),Vertical meters3482,ProfileScore221,PS final 25k106,images/profiles/ap/aa/giro-d-italia-2019-stage-17-profile-n2-622cc9e33e.jpg
 Giro,2019,Date30/05,StageStage 18,Valdaora / Olang - Santa Maria di Sala (222 km),Vertical meters1478,ProfileScore20,PS final 25k0,images/profiles/ap/cb/giro-d-italia-2019-stage-18-profile-31b446abb2.jpg
 Giro,2019,Date31/05,StageStage 19,Treviso - San Martino di Castrozza (151 km),Vertical meters3169,ProfileScore215,PS final 25k139,images/profiles/ap/dc/giro-d-italia-2019-stage-19-profile-f0d3e9d55e.jpg
 Giro,2019,Date01/06,StageStage 20,Feltre  - Monte Avena (194 km),Vertical meters5754,ProfileScore371,PS final 25k192,images/profiles/ap/fa/giro-d-italia-2019-stage-20-profile-88dfcf02bc.jpg
@@ -112,7 +112,7 @@ Giro,2020,Date07/10,StageStage 5,Mileto - Camigliatello Silano (225 km),Vertical
 Giro,2020,Date08/10,StageStage 6,Castrovillari - Matera (188 km),Vertical meters2821,ProfileScore107,PS final 25k31,images/profiles/ap/eb/giro-d-italia-2020-stage-6-profile-bc8d2986db.jpg
 Giro,2020,Date09/10,StageStage 7,Matera - Brindisi (143 km),Vertical meters450,ProfileScore5,PS final 25k0,images/profiles/ap/db/giro-d-italia-2020-stage-7-profile-6725970604.jpg
 Giro,2020,Date10/10,StageStage 8,Giovinazzo - Vieste (200 km),Vertical meters2197,ProfileScore116,PS final 25k29,images/profiles/ap/de/giro-d-italia-2020-stage-8-profile-e828d3bf9c.jpg
-Giro,2020,Date11/10,StageStage 9,San Salvo - Roccaraso (Aremogna) (208 km),Vertical meters4544,ProfileScore222,PS final 25k85,images/profiles/ap/ea/giro-d-italia-2020-stage-9-profile-ea3ab1fa6f.jpg
+Giro,2020,Date11/10,StageStage 9,San Salvo - Roccaraso Aremogna (208 km),Vertical meters4544,ProfileScore222,PS final 25k85,images/profiles/ap/ea/giro-d-italia-2020-stage-9-profile-ea3ab1fa6f.jpg
 Giro,2020,Date13/10,StageStage 10,Lanciano - Tortoreto (177 km),Vertical meters2057,ProfileScore134,PS final 25k56,images/profiles/ap/dc/giro-d-italia-2020-stage-10-profile-b76554ccd9.jpg
 Giro,2020,Date14/10,StageStage 11,Porto Sant'Elpidio - Rimini (182 km),Vertical meters1197,ProfileScore50,PS final 25k7,images/profiles/ap/ed/giro-d-italia-2020-stage-11-profile-6fc3ac78f7.jpg
 Giro,2020,Date15/10,StageStage 12,Cesenatico - Cesenatico (204 km),Vertical meters3815,ProfileScore164,PS final 25k1,images/profiles/ap/df/giro-d-italia-2020-stage-12-profile-ccfd823206.jpg
@@ -130,10 +130,10 @@ Giro,2021,Date09/05,StageStage 2,Stupinigi  - Novara (179 km),Vertical meters707
 Giro,2021,Date10/05,StageStage 3,Biella - Canale (190 km),Vertical meters1870,ProfileScore103,PS final 25k28,images/profiles/ap/ee/giro-d-italia-2021-stage-3-profile-n3-62bd5bcd7f.jpg
 Giro,2021,Date11/05,StageStage 4,Piacenza - Sestola (187 km),Vertical meters3138,ProfileScore252,PS final 25k156,images/profiles/ap/cb/giro-d-italia-2021-stage-4-profile-n3-a410ca8bad.jpg
 Giro,2021,Date12/05,StageStage 5,Modena - Cattolica (177 km),Vertical meters363,ProfileScore0,PS final 25k0,images/profiles/ap/ab/giro-d-italia-2021-stage-5-profile-n3-fa774ece43.jpg
-Giro,2021,Date13/05,StageStage 6,Grotte di Frasassi - Ascoli Piceno (San Giacomo) (160 km),Vertical meters3595,ProfileScore221,PS final 25k139,images/profiles/ap/ef/giro-d-italia-2021-stage-6-profile-n4-f2472c5ec8.jpg
+Giro,2021,Date13/05,StageStage 6,Grotte di Frasassi - Ascoli Piceno San Giacomo (160 km),Vertical meters3595,ProfileScore221,PS final 25k139,images/profiles/ap/ef/giro-d-italia-2021-stage-6-profile-n4-f2472c5ec8.jpg
 Giro,2021,Date14/05,StageStage 7,Notaresco - Termoli (181 km),Vertical meters1725,ProfileScore37,PS final 25k2,images/profiles/ap/ea/giro-d-italia-2021-stage-7-profile-n3-e602033667.jpg
 Giro,2021,Date15/05,StageStage 8,Foggia - Guardia Sanframondi (170 km),Vertical meters3085,ProfileScore133,PS final 25k53,images/profiles/ap/da/giro-d-italia-2021-stage-8-profile-n3-09322a724c.jpg
-Giro,2021,Date16/05,StageStage 9,Castel di Sangro - Campo Felice (Rocca di Cambio) (158 km),Vertical meters3503,ProfileScore196,PS final 25k89,images/profiles/ap/ec/giro-d-italia-2021-stage-9-profile-n3-29ab8dd9bc.jpg
+Giro,2021,Date16/05,StageStage 9,Castel di Sangro - Campo Felice Rocca di Cambio (158 km),Vertical meters3503,ProfileScore196,PS final 25k89,images/profiles/ap/ec/giro-d-italia-2021-stage-9-profile-n3-29ab8dd9bc.jpg
 Giro,2021,Date17/05,StageStage 10,L'Aquila - Foligno (139 km),Vertical meters1460,ProfileScore60,PS final 25k0,images/profiles/ap/ca/giro-d-italia-2021-stage-10-profile-n2-e394e87c0c.jpg
 Giro,2021,Date19/05,StageStage 11,Perugia - Montalcino (162 km),Vertical meters2364,ProfileScore174,PS final 25k90,images/profiles/ap/ce/giro-d-italia-2021-stage-11-profile-n2-a5e6e126e1.jpg
 Giro,2021,Date20/05,StageStage 12,Siena - Bagno di Romagna (212 km),Vertical meters4433,ProfileScore223,PS final 25k82,images/profiles/ap/ad/giro-d-italia-2021-stage-12-profile-n2-05e42cdf0f.jpg
@@ -143,7 +143,7 @@ Giro,2021,Date23/05,StageStage 15,Grado - Gorizia (147 km),Vertical meters1682,P
 Giro,2021,Date24/05,StageStage 16,Sacile - Cortina d'Ampezzo (153 km),Vertical meters3942,ProfileScore295,PS final 25k135,images/profiles/ap/be/giro-d-italia-2021-stage-16-profile-n3-b0ebf56c48.jpg
 Giro,2021,Date26/05,StageStage 17,Canazei - Sega di Ala (193 km),Vertical meters3703,ProfileScore408,PS final 25k243,images/profiles/ap/df/giro-d-italia-2021-stage-17-profile-n2-2d7ddcd419.jpg
 Giro,2021,Date27/05,StageStage 18,Rovereto - Stradella (231 km),Vertical meters1398,ProfileScore74,PS final 25k46,images/profiles/ap/ec/giro-d-italia-2021-stage-18-profile-n2-736926f88e.jpg
-Giro,2021,Date28/05,StageStage 19,Abbiategrasso - Alpe di Mera (Valsesia) (166 km),Vertical meters2811,ProfileScore292,PS final 25k213,images/profiles/ap/fb/giro-d-italia-2021-stage-19-profile-n3-9dbb165e58.jpg
+Giro,2021,Date28/05,StageStage 19,Abbiategrasso - Alpe di Mera Valsesia (166 km),Vertical meters2811,ProfileScore292,PS final 25k213,images/profiles/ap/fb/giro-d-italia-2021-stage-19-profile-n3-9dbb165e58.jpg
 Giro,2021,Date29/05,StageStage 20,Verbania - Valle Spluga-Alpe Motta (164 km),Vertical meters3867,ProfileScore305,PS final 25k134,images/profiles/ap/da/giro-d-italia-2021-stage-20-profile-n2-8ddfdb5a09.jpg
 Giro,2021,Date30/05,StageStage 21 (ITT),Senago - Milan (30.3 km),Vertical meters24,ProfileScore0,PS final 25k0,images/profiles/ap/ee/giro-d-italia-2021-stage-21-profile-n2-092f648c8f.jpg
 Giro,2022,Date06/05,StageStage 1,Budapest - Visegrád (195 km),Vertical meters1390,ProfileScore51,PS final 25k36,images/profiles/ap/ee/giro-d-italia-2022-stage-1-profile-n2-b7f8c09bab.jpg
@@ -165,7 +165,7 @@ Giro,2022,Date24/05,StageStage 16,Salò - Aprica (202 km),Vertical meters5268,Pr
 Giro,2022,Date25/05,StageStage 17,Ponte di Legno - Lavarone (168 km),Vertical meters3950,ProfileScore347,PS final 25k160,images/profiles/ap/ab/giro-d-italia-2022-stage-17-profile-3894b51377.jpg
 Giro,2022,Date26/05,StageStage 18,Borgo Valsugana - Treviso (156 km),Vertical meters1219,ProfileScore34,PS final 25k0,images/profiles/ap/ed/giro-d-italia-2022-stage-18-profile-2cd7c0e570.jpg
 Giro,2022,Date27/05,StageStage 19,Marano Lagunare - Santuario di Castelmonte (178 km),Vertical meters3489,ProfileScore262,PS final 25k90,images/profiles/ap/ca/giro-d-italia-2022-stage-19-profile-986158efae.jpg
-Giro,2022,Date28/05,StageStage 20,Belluno - Marmolada (Passo Fedaia) (168 km),Vertical meters4718,ProfileScore392,PS final 25k249,images/profiles/ap/ae/giro-d-italia-2022-stage-20-profile-ff02bcdd82.jpg
+Giro,2022,Date28/05,StageStage 20,Belluno - Marmolada Passo Fedaia (168 km),Vertical meters4718,ProfileScore392,PS final 25k249,images/profiles/ap/ae/giro-d-italia-2022-stage-20-profile-ff02bcdd82.jpg
 Giro,2022,Date29/05,StageStage 21 (ITT),Verona - Verona (17.4 km),Vertical meters317,ProfileScore30,PS final 25k30,images/profiles/ap/aa/giro-d-italia-2022-stage-21-profile-n2-8cebc230a9.jpg
 Giro,2023,Date06/05,StageStage 1 (ITT),Fossacesia Marina - Ortona (19.6 km),Vertical meters171,ProfileScore11,PS final 25k11,images/profiles/ap/ef/giro-d-italia-2023-stage-1-profile-n3-c22103c954.jpg
 Giro,2023,Date07/05,StageStage 2,Teramo - San Salvo (202 km),Vertical meters1831,ProfileScore51,PS final 25k5,images/profiles/ap/ef/giro-d-italia-2023-stage-2-profile-35cca2eef7.jpg
@@ -173,7 +173,7 @@ Giro,2023,Date08/05,StageStage 3,Vasto - Melfi (213 km),Vertical meters1777,Prof
 Giro,2023,Date09/05,StageStage 4,Venosa - Lago Laceno (175 km),Vertical meters3667,ProfileScore207,PS final 25k119,images/profiles/ap/ab/giro-d-italia-2023-stage-4-profile-n2-89ef70303c.jpg
 Giro,2023,Date10/05,StageStage 5,Atripalda  - Salerno (171 km),Vertical meters2529,ProfileScore77,PS final 25k0,images/profiles/ap/bc/giro-d-italia-2023-stage-5-profile-n2-7a98d3f7e8.jpg
 Giro,2023,Date11/05,StageStage 6,Napoli - Napoli (162 km),Vertical meters2581,ProfileScore92,PS final 25k1,images/profiles/ap/fe/giro-d-italia-2023-stage-6-profile-n2-da26f929b3.jpg
-Giro,2023,Date12/05,StageStage 7,Capua - Gran Sasso d'Italia (Campo Imperatore) (218 km),Vertical meters4143,ProfileScore253,PS final 25k124,images/profiles/ap/bc/giro-d-italia-2023-stage-7-profile-n2-bf027b5c02.jpg
+Giro,2023,Date12/05,StageStage 7,Capua - Gran Sasso d'Italia Campo Imperatore (218 km),Vertical meters4143,ProfileScore253,PS final 25k124,images/profiles/ap/bc/giro-d-italia-2023-stage-7-profile-n2-bf027b5c02.jpg
 Giro,2023,Date13/05,StageStage 8,Terni - Fossombrone (207 km),Vertical meters2790,ProfileScore180,PS final 25k75,images/profiles/ap/ca/giro-d-italia-2023-stage-8-profile-n2-400b951835.jpg
 Giro,2023,Date14/05,StageStage 9 (ITT),Savignano sul Rubicone - Cesena (35 km),Vertical meters84,ProfileScore0,PS final 25k0,images/profiles/ap/ad/giro-d-italia-2023-stage-9-profile-n4-b99e6ef812.jpg
 Giro,2023,Date16/05,StageStage 10,Scandiano - Viareggio (196 km),Vertical meters3020,ProfileScore76,PS final 25k4,images/profiles/ap/bc/giro-d-italia-2023-stage-10-profile-n5-6a069d26f4.jpg
@@ -184,7 +184,7 @@ Giro,2023,Date20/05,StageStage 14,Sierre - Cassano Magnago (194 km),Vertical met
 Giro,2023,Date21/05,StageStage 15,Seregno - Bergamo (195 km),Vertical meters4040,ProfileScore202,PS final 25k22,images/profiles/ap/ac/giro-d-italia-2023-stage-15-profile-n3-8b4f1fc7a2.jpg
 Giro,2023,Date23/05,StageStage 16,Sabbio Chiese - Monte Bondone (203 km),Vertical meters5852,ProfileScore456,PS final 25k256,images/profiles/ap/bd/giro-d-italia-2023-stage-16-profile-n3-8b2ed98f8d.jpg
 Giro,2023,Date24/05,StageStage 17,Pergine Valsugana - Caorle (197 km),Vertical meters523,ProfileScore5,PS final 25k0,images/profiles/ap/cd/giro-d-italia-2023-stage-17-profile-n2-04496194cb.jpg
-Giro,2023,Date25/05,StageStage 18,Oderzo - Val di Zoldo (Palafavera) (161 km),Vertical meters4153,ProfileScore362,PS final 25k159,images/profiles/ap/af/giro-d-italia-2023-stage-18-profile-n2-2b6ec5d3a5.jpg
+Giro,2023,Date25/05,StageStage 18,Oderzo - Val di Zoldo Palafavera (161 km),Vertical meters4153,ProfileScore362,PS final 25k159,images/profiles/ap/af/giro-d-italia-2023-stage-18-profile-n2-2b6ec5d3a5.jpg
 Giro,2023,Date26/05,StageStage 19,Longarone - Tre Cime di Lavaredo (183 km),Vertical meters5423,ProfileScore478,PS final 25k245,images/profiles/ap/ed/giro-d-italia-2023-stage-19-profile-n3-2dffd91873.jpg
 Giro,2023,Date27/05,StageStage 20 (ITT),Tarvisio - Monte Lussari (18.6 km),Vertical meters1070,ProfileScore197,PS final 25k197,images/profiles/ap/ab/giro-d-italia-2023-stage-20-profile-n3-2a005d8542.jpg
 Giro,2023,Date28/05,StageStage 21,Roma - Roma (126 km),Vertical meters692,ProfileScore21,PS final 25k9,images/profiles/ap/ff/giro-d-italia-2023-stage-21-profile-n3-98eabcbc33.jpg
@@ -202,8 +202,8 @@ Giro,2024,Date15/05,StageStage 11,Foiano di Val Fortore - Francavilla al Mare (2
 Giro,2024,Date16/05,StageStage 12,Martinsicuro - Fano (193 km),Vertical meters2162,ProfileScore95,PS final 25k28,images/profiles/ap/fc/giro-d-italia-2024-stage-12-final-km-46852391fa.jpg
 Giro,2024,Date17/05,StageStage 13,Riccione - Cento (179 km),Vertical meters202,ProfileScore0,PS final 25k0,images/profiles/ap/ee/giro-d-italia-2024-stage-13-final-km-b2b12f0f6a.jpg
 Giro,2024,Date18/05,StageStage 14 (ITT),Castiglione delle Stiviere - Desenzano del Garda (31.2 km),Vertical meters250,ProfileScore9,PS final 25k6,images/profiles/ap/dd/giro-d-italia-2024-map-n2-bf9dec8c66.jpg
-Giro,2024,Date19/05,StageStage 15,Manerba del Garda - Livigno (Mottolino) (222 km),Vertical meters5724,ProfileScore397,PS final 25k210,images/profiles/ap/bc/giro-d-italia-2024-stage-15-sprint-ccea85e6f0.jpg
-Giro,2024,Date21/05,StageStage 16,Laas - Santa Cristina Valgardena (Monte Pana) (118.4 km),Vertical meters2151,ProfileScore234,PS final 25k162,images/profiles/ap/ef/giro-d-italia-2024-stage-16-profile-n4-2e85dbb80f.jpg
+Giro,2024,Date19/05,StageStage 15,Manerba del Garda - Livigno Mottolino (222 km),Vertical meters5724,ProfileScore397,PS final 25k210,images/profiles/ap/bc/giro-d-italia-2024-stage-15-sprint-ccea85e6f0.jpg
+Giro,2024,Date21/05,StageStage 16,Laas - Santa Cristina Valgardena Monte Pana (118.4 km),Vertical meters2151,ProfileScore234,PS final 25k162,images/profiles/ap/ef/giro-d-italia-2024-stage-16-profile-n4-2e85dbb80f.jpg
 Giro,2024,Date22/05,StageStage 17,Selva di Val Gardena - Passo Brocon (159 km),Vertical meters4087,ProfileScore341,PS final 25k158,images/profiles/ap/eb/giro-d-italia-2024-stage-17-profile-6eedd51e2b.jpg
 Giro,2024,Date23/05,StageStage 18,Fiera di Primiero - Padova (178 km),Vertical meters873,ProfileScore18,PS final 25k0,images/profiles/ap/fd/giro-d-italia-2024-stage-18-sprint-3954303d41.jpg
 Giro,2024,Date24/05,StageStage 19,Mortegliano - Sappada (157 km),Vertical meters3251,ProfileScore258,PS final 25k117,images/profiles/ap/de/giro-d-italia-2024-stage-19-profile-e390d18c85.jpg
@@ -242,7 +242,7 @@ Tour,2016,Date09/07,StageStage 8,Pau - Bagnères-de-Luchon (184 km),Vertical met
 Tour,2016,Date10/07,StageStage 9,Vielha val d'Aran - Andorra Arcalis (184 km),Vertical meters4948,ProfileScore366,PS final 25k172,images/profiles/ap/ee/tour-de-france-2016-stage-9-profile-n2-b3c47bae5f.jpg
 Tour,2016,Date12/07,StageStage 10,Escaldes-Engordany - Revel (197 km),Vertical meters2432,ProfileScore80,PS final 25k27,images/profiles/ap/ca/tour-de-france-2016-stage-10-profile-n2-873e8235b1.jpg
 Tour,2016,Date13/07,StageStage 11,Carcassonne - Montpellier (162.5 km),Vertical meters1381,ProfileScore24,PS final 25k2,images/profiles/ap/ce/tour-de-france-2016-stage-11-profile-n2-0b041d1db3.jpg
-Tour,2016,Date14/07,StageStage 12,Montpellier - Chalet-Reynard (Mont Ventoux) (178 km),Vertical meters2416,ProfileScore268,PS final 25k221,images/profiles/ap/df/tour-de-france-2016-stage-12-profile-n2-881d46ef52.jpg
+Tour,2016,Date14/07,StageStage 12,Montpellier - Chalet-Reynard Mont Ventoux (178 km),Vertical meters2416,ProfileScore268,PS final 25k221,images/profiles/ap/df/tour-de-france-2016-stage-12-profile-n2-881d46ef52.jpg
 Tour,2016,Date15/07,StageStage 13 (ITT),Bourg-Saint-Andeol - Le Caverne de Pont d'Arc (37.5 km),Vertical meters752,ProfileScore54,PS final 25k31,images/profiles/ap/bb/tour-de-france-2016-stage-13-profile-n2-3abb484ff2.jpg
 Tour,2016,Date16/07,StageStage 14,Montélimar - Villars-les-Dombes Parc des Oiseaux (208.5 km),Vertical meters1958,ProfileScore30,PS final 25k4,images/profiles/ap/dd/tour-de-france-2016-stage-14-profile-n2-eae2679527.jpg
 Tour,2016,Date17/07,StageStage 15,Bourg-en-Bresse - Culoz (159 km),Vertical meters4386,ProfileScore286,PS final 25k113,images/profiles/ap/ec/tour-de-france-2016-stage-15-profile-n2-c58950a5e0.jpg
@@ -325,10 +325,10 @@ Tour,2020,Date03/09,StageStage 6,Le Teil - Mont Aigoual (191 km),Vertical meters
 Tour,2020,Date04/09,StageStage 7,Millau - Lavaur (168 km),Vertical meters2011,ProfileScore47,PS final 25k2,images/profiles/ap/cb/tour-de-france-2020-stage-7-profile-d44aaffa92.jpg
 Tour,2020,Date05/09,StageStage 8,Cazères - Loudenvielle (141 km),Vertical meters3821,ProfileScore295,PS final 25k112,images/profiles/ap/ba/tour-de-france-2020-stage-8-profile-048e8f27ac.jpg
 Tour,2020,Date06/09,StageStage 9,Pau - Laruns (153 km),Vertical meters3500,ProfileScore239,PS final 25k118,images/profiles/ap/ba/tour-de-france-2020-stage-9-profile-a0d661ca1f.jpg
-Tour,2020,Date08/09,StageStage 10,île d'Oléron (Le Château-d'Oléron) - Île de Ré (Saint-Martin-de-Ré) (168.5 km),Vertical meters531,ProfileScore2,PS final 25k0,images/profiles/ap/cb/tour-de-france-2020-stage-10-profile-6a06b6d5c6.jpg
+Tour,2020,Date08/09,StageStage 10,île d'Oléron Le Château-d'Oléron - Île de Ré Saint-Martin-de-Ré (168.5 km),Vertical meters531,ProfileScore2,PS final 25k0,images/profiles/ap/cb/tour-de-france-2020-stage-10-profile-6a06b6d5c6.jpg
 Tour,2020,Date09/09,StageStage 11,Châtelaillon-Plage - Poitiers (166.5 km),Vertical meters1008,ProfileScore13,PS final 25k4,images/profiles/ap/ad/tour-de-france-2020-stage-11-profile-7f2c767b90.jpg
 Tour,2020,Date10/09,StageStage 12,Chauvigny - Sarran (218 km),Vertical meters3389,ProfileScore142,PS final 25k26,images/profiles/ap/fa/tour-de-france-2020-stage-12-profile-2f78f3c955.jpg
-Tour,2020,Date11/09,StageStage 13,Châtel-Guyon - Pas de Peyrol (Le Puy Mary) (191.5 km),Vertical meters4459,ProfileScore302,PS final 25k178,images/profiles/ap/ae/tour-de-france-2020-stage-13-profile-5003f55417.jpg
+Tour,2020,Date11/09,StageStage 13,Châtel-Guyon - Pas de Peyrol Le Puy Mary (191.5 km),Vertical meters4459,ProfileScore302,PS final 25k178,images/profiles/ap/ae/tour-de-france-2020-stage-13-profile-5003f55417.jpg
 Tour,2020,Date12/09,StageStage 14,Clermont-Ferrand - Lyon (194 km),Vertical meters2646,ProfileScore73,PS final 25k17,images/profiles/ap/bd/tour-de-france-2020-stage-14-profile-95e66b54b4.jpg
 Tour,2020,Date13/09,StageStage 15,Lyon - Grand Colombier (174.5 km),Vertical meters3724,ProfileScore390,PS final 25k223,images/profiles/ap/ff/tour-de-france-2020-stage-15-profile-09824c3245.jpg
 Tour,2020,Date15/09,StageStage 16,La Tour-du-Pin - Villard-de-Lans (164 km),Vertical meters3903,ProfileScore250,PS final 25k68,images/profiles/ap/fb/tour-de-france-2020-stage-16-profile-ee102bc610.jpg
@@ -353,7 +353,7 @@ Tour,2021,Date09/07,StageStage 13,Nîmes - Carcassonne (219.9 km),Vertical meter
 Tour,2021,Date10/07,StageStage 14,Carcassonne - Quillan (183.7 km),Vertical meters2877,ProfileScore125,PS final 25k55,images/profiles/ap/ed/tour-de-france-2021-stage-14-profile-n2-3577a3532a.jpg
 Tour,2021,Date11/07,StageStage 15,Céret - Andorra la Vella (191.3 km),Vertical meters4572,ProfileScore234,PS final 25k101,images/profiles/ap/be/tour-de-france-2021-stage-15-profile-22005b0539.jpg
 Tour,2021,Date13/07,StageStage 16,El Pas de la Casa  - Saint-Gaudens (169 km),Vertical meters3260,ProfileScore177,PS final 25k23,images/profiles/ap/ba/tour-de-france-2021-stage-16-profile-1f3718f18a.jpg
-Tour,2021,Date14/07,StageStage 17,Muret - Saint-Lary-Soulan (Col du Portet) (178.4 km),Vertical meters4375,ProfileScore450,PS final 25k286,images/profiles/ap/fa/tour-de-france-2021-stage-17-profile-08285cbd2b.jpg
+Tour,2021,Date14/07,StageStage 17,Muret - Saint-Lary-Soulan Col du Portet (178.4 km),Vertical meters4375,ProfileScore450,PS final 25k286,images/profiles/ap/fa/tour-de-france-2021-stage-17-profile-08285cbd2b.jpg
 Tour,2021,Date15/07,StageStage 18,Pau - Luz Ardiden (129.7 km),Vertical meters3561,ProfileScore367,PS final 25k197,images/profiles/ap/dc/tour-de-france-2021-stage-18-profile-9a791e0e54.jpg
 Tour,2021,Date16/07,StageStage 19,Mourenx - Libourne (207 km),Vertical meters1181,ProfileScore16,PS final 25k2,images/profiles/ap/ce/tour-de-france-2021-stage-19-profile-9918cad69e.jpg
 Tour,2021,Date17/07,StageStage 20 (ITT),Libourne - Saint-Émilion (30.8 km),Vertical meters246,ProfileScore8,PS final 25k8,images/profiles/ap/cb/tour-de-france-2021-stage-20-profile-1a0990a2a6.jpg
@@ -378,7 +378,7 @@ Tour,2022,Date20/07,StageStage 17,Saint-Gaudens - Peyragudes (129.7 km),Vertical
 Tour,2022,Date21/07,StageStage 18,Lourdes - Hautacam (143.2 km),Vertical meters4036,ProfileScore408,PS final 25k210,images/profiles/ap/ca/tour-de-france-2022-stage-18-profile-1122c5be36.jpg
 Tour,2022,Date22/07,StageStage 19,Castelnau-Magnoac - Cahors (188.3 km),Vertical meters1316,ProfileScore35,PS final 25k9,images/profiles/ap/dc/tour-de-france-2022-stage-19-profile-595e66377e.jpg
 Tour,2022,Date23/07,StageStage 20 (ITT),Lacapelle-Marival - Rocamadour (40.7 km),Vertical meters434,ProfileScore39,PS final 25k37,images/profiles/ap/ba/tour-de-france-2022-stage-20-profile-8f75033417.jpg
-Tour,2022,Date24/07,StageStage 21,Paris La Défense - Paris (Champs-Élysées) (115.6 km),Vertical meters748,ProfileScore13,PS final 25k1,images/profiles/ap/fd/tour-de-france-2022-stage-21-profile-4dd54cea5f.jpg
+Tour,2022,Date24/07,StageStage 21,Paris La Défense - Paris Champs-Élysées (115.6 km),Vertical meters748,ProfileScore13,PS final 25k1,images/profiles/ap/fd/tour-de-france-2022-stage-21-profile-4dd54cea5f.jpg
 Tour,2023,Date01/07,StageStage 1,Bilbao - Bilbao (182 km),Vertical meters3221,ProfileScore166,PS final 25k52,images/profiles/ap/ba/tour-de-france-2023-stage-1-profile-n3-c3405fabea.jpg
 Tour,2023,Date02/07,StageStage 2,Vitoria-Gasteiz - San Sébastián (208.9 km),Vertical meters2949,ProfileScore141,PS final 25k63,images/profiles/ap/df/tour-de-france-2023-stage-2-profile-n2-e1b299f787.png
 Tour,2023,Date03/07,StageStage 3,Amorebieta-Etxano - Bayonne (193.5 km),Vertical meters2667,ProfileScore68,PS final 25k19,images/profiles/ap/cb/tour-de-france-2023-stage-3-profile-n3-cbb76fb24e.jpg
@@ -427,7 +427,7 @@ Vuelta,2015,Date24/08,StageStage 3,Mijas - Málaga (158.4 km),Vertical meters261
 Vuelta,2015,Date25/08,StageStage 4,Estepona - Vejer de la Frontera (209.6 km),Vertical meters2141,ProfileScore83,PS final 25k55,images/profiles/ap/fa/vuelta-a-espana-2015-stage-4-profile-n2-5fdaf899f8.jpg
 Vuelta,2015,Date26/08,StageStage 5,Rota - Alcalá de Guadaíra (167.3 km),Vertical meters816,ProfileScore9,PS final 25k5,images/profiles/ap/bc/vuelta-a-espana-2015-stage-5-profile-n2-add38bad54.jpg
 Vuelta,2015,Date27/08,StageStage 6,Córdoba - Sierra de Cazorla (200.3 km),Vertical meters2908,ProfileScore112,PS final 25k68,images/profiles/ap/cd/vuelta-a-espana-2015-stage-6-profile-n2-1a1d2f12f7.jpg
-Vuelta,2015,Date28/08,StageStage 7,Jódar - La Alpujarra (Capileira) (191.1 km),Vertical meters3318,ProfileScore204,PS final 25k161,images/profiles/ap/db/vuelta-a-espana-2015-stage-7-profile-n2-771464a988.jpg
+Vuelta,2015,Date28/08,StageStage 7,Jódar - La Alpujarra Capileira (191.1 km),Vertical meters3318,ProfileScore204,PS final 25k161,images/profiles/ap/db/vuelta-a-espana-2015-stage-7-profile-n2-771464a988.jpg
 Vuelta,2015,Date29/08,StageStage 8,Puebla de Don Fadrique - Murcia (182.5 km),Vertical meters1386,ProfileScore83,PS final 25k44,images/profiles/ap/ad/vuelta-a-espana-2015-stage-8-profile-n2-060dfec7c9.jpg
 Vuelta,2015,Date30/08,StageStage 9,Torrevieja - Cumbre del Sol. Benitachell (168.3 km),Vertical meters2044,ProfileScore139,PS final 25k80,images/profiles/ap/bf/vuelta-a-espana-2015-stage-9-profile-n2-8b8b029f11.jpg
 Vuelta,2015,Date31/08,StageStage 10,Valencia - Castellón   (146.6 km),Vertical meters1520,ProfileScore63,PS final 25k49,images/profiles/ap/fc/vuelta-a-espana-2015-stage-10-profile-n2-7eaa001352.jpg
@@ -445,7 +445,7 @@ Vuelta,2015,Date13/09,StageStage 21,Alcalá de Henares - Madrid (98.8 km),Vertic
 Vuelta,2016,Date20/08,StageStage 1 (TTT),Balneario Laias - Parque Náutico de Castrelo de Miño (27.8 km),Vertical meters362,ProfileScore14,PS final 25k11,images/profiles/ap/cf/vuelta-a-espana-2016-stage-1-profile-n2-83919e69fd.jpg
 Vuelta,2016,Date21/08,StageStage 2,Ourense  - Baiona (160.8 km),Vertical meters2168,ProfileScore69,PS final 25k14,images/profiles/ap/ce/vuelta-a-espana-2016-stage-2-profile-n2-09302dc26e.jpg
 Vuelta,2016,Date22/08,StageStage 3,Marín  - Dumbría. Mirador de Ézaro (176.4 km),Vertical meters2983,ProfileScore177,PS final 25k65,images/profiles/ap/db/vuelta-a-espana-2016-stage-3-profile-n2-4ef7bd7a9b.jpg
-Vuelta,2016,Date23/08,StageStage 4,Betanzos  - San Andrés de Teixido (Mirador Vixía de Herbeira) (163.5 km),Vertical meters3196,ProfileScore180,PS final 25k111,images/profiles/ap/ae/vuelta-a-espana-2016-stage-4-profile-n2-6e30090b75.jpg
+Vuelta,2016,Date23/08,StageStage 4,Betanzos  - San Andrés de Teixido Mirador Vixía de Herbeira (163.5 km),Vertical meters3196,ProfileScore180,PS final 25k111,images/profiles/ap/ae/vuelta-a-espana-2016-stage-4-profile-n2-6e30090b75.jpg
 Vuelta,2016,Date24/08,StageStage 5,Viveiro - Lugo (171.3 km),Vertical meters2467,ProfileScore73,PS final 25k14,images/profiles/ap/bc/vuelta-a-espana-2016-stage-5-profile-n2-f1af5a4898.jpg
 Vuelta,2016,Date25/08,StageStage 6,Monforte de Lemos - Luintra. Ribera Sacra  (163.2 km),Vertical meters2824,ProfileScore159,PS final 25k66,images/profiles/ap/ba/vuelta-a-espana-2016-stage-6-profile-n2-1650707a09.jpg
 Vuelta,2016,Date26/08,StageStage 7,Maceda - Puebla de Sanabria  (158.5 km),Vertical meters2616,ProfileScore104,PS final 25k21,images/profiles/ap/ea/vuelta-a-espana-2016-stage-7-profile-n2-7b9a618a53.jpg
@@ -471,8 +471,8 @@ Vuelta,2017,Date23/08,StageStage 5,Benicàssim  - Alcossebre  (157.7 km),Vertica
 Vuelta,2017,Date24/08,StageStage 6,Vila-Real - Sagunt (204.4 km),Vertical meters2704,ProfileScore106,PS final 25k0,images/profiles/ap/db/vuelta-a-espana-2017-stage-6-profile-n2-72ca9e1a14.jpg
 Vuelta,2017,Date25/08,StageStage 7,Llíria - Cuenca  (207 km),Vertical meters3034,ProfileScore81,PS final 25k28,images/profiles/ap/bc/vuelta-a-espana-2017-stage-7-profile-n2-31156bba08.jpg
 Vuelta,2017,Date26/08,StageStage 8,Hellín - Xorret de Catí   (199.5 km),Vertical meters2593,ProfileScore163,PS final 25k118,images/profiles/ap/bc/vuelta-a-espana-2017-stage-8-profile-n2-b33b46276b.jpg
-Vuelta,2017,Date27/08,StageStage 9,Orihuela  - Cumbre del Sol (Alto de Puig Llorença) (174 km),Vertical meters2041,ProfileScore151,PS final 25k85,images/profiles/ap/eb/vuelta-a-espana-2017-stage-9-profile-n2-e87285a3a2.jpg
-Vuelta,2017,Date29/08,StageStage 10,Caravaca Jubilar - ElPozo Alimentación (Alhama de Murcia) (164.8 km),Vertical meters1568,ProfileScore106,PS final 25k20,images/profiles/ap/ac/vuelta-a-espana-2017-stage-10-profile-n2-b2fc651706.jpg
+Vuelta,2017,Date27/08,StageStage 9,Orihuela  - Cumbre del Sol Alto de Puig Llorença (174 km),Vertical meters2041,ProfileScore151,PS final 25k85,images/profiles/ap/eb/vuelta-a-espana-2017-stage-9-profile-n2-e87285a3a2.jpg
+Vuelta,2017,Date29/08,StageStage 10,Caravaca Jubilar - ElPozo Alimentación Alhama de Murcia (164.8 km),Vertical meters1568,ProfileScore106,PS final 25k20,images/profiles/ap/ac/vuelta-a-espana-2017-stage-10-profile-n2-b2fc651706.jpg
 Vuelta,2017,Date30/08,StageStage 11,Lorca - Observatorio Astronómico de Calar Alto  (187.5 km),Vertical meters3878,ProfileScore296,PS final 25k161,images/profiles/ap/ea/vuelta-a-espana-2017-stage-11-profile-n2-a02a7093ed.jpg
 Vuelta,2017,Date31/08,StageStage 12,Motril - Antequera Los Dólmenes  (160.1 km),Vertical meters2681,ProfileScore188,PS final 25k95,images/profiles/ap/aa/vuelta-a-espana-2017-stage-12-profile-n2-8c0b471423.jpg
 Vuelta,2017,Date01/09,StageStage 13,Coín - Tomares (198.4 km),Vertical meters1938,ProfileScore39,PS final 25k9,images/profiles/ap/df/vuelta-a-espana-2017-stage-13-profile-n2-6959fba78e.jpg
