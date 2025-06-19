@@ -4,6 +4,4 @@ scikit-learn
 seaborn
 matplotlib
 requests
-BeautifulSoup
-time
-os
+beautifulsoup4
