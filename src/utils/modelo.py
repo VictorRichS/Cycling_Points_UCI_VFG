@@ -2,101 +2,101 @@ import streamlit as st
 import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
-import pickle
-from sklearn.metrics import classification_report
+from sklearn.metrics import mean_squared_error
+from io import BytesIO
 
-@st.cache_data
-def preparar_datos(riders, stages):
-    df_riders = riders.copy()
-    df_stages = stages.copy()
-
-    # Extraer número de etapa de 'Etapa' y convertir a string
-    df_riders["StageNum"] = df_riders["Etapa"].str.extract(r"(\d+)", expand=False).astype(str)
-
-    # Convertir también la columna 'Stage' a string
-    df_stages["Stage"] = df_stages["Stage"].astype(str)
-
-    # Fusionar por etapa, año y carrera
-    df_merged = df_riders.merge(
-        df_stages,
-        left_on=["StageNum", "Anio", "Carrera"],
-        right_on=["Stage", "Año", "Carrera"],
-        how="left"
+def cargar_modelo():
+    uploaded_file = st.file_uploader(
+        "Sube un archivo CSV con datos UCI (Rider, Team, Carrera, stage, UCI_points, Specialty)",
+        type=["csv"]
     )
 
-    # Convertir tiempo a segundos
-    df_merged["Time_sec"] = df_merged["Time"].apply(
-        lambda x: sum(int(t) * 60 ** i for i, t in enumerate(reversed(x.split(':'))))
-    )
+    if uploaded_file:
+        df = pd.read_csv(uploaded_file)
 
-    # Eliminar columnas irrelevantes
-    df_merged = df_merged.drop(
-        columns=["Rnk", "Rider", "Time", "Stage", "Año", "Date", "Route", "Image", "StageNum", "Etapa"]
-    )
+        # Filtros
+        col1, col2 = st.columns(2)
+        carreras = col1.multiselect("Selecciona la(s) carrera(s)", df["Carrera"].unique(), default=df["Carrera"].unique())
+        equipos = col2.multiselect("Filtrar por equipo(s)", df["Team"].unique(), default=df["Team"].unique())
 
-    # Codificar variables categóricas
-    df_merged = pd.get_dummies(df_merged, columns=["Specialty", "Team", "Carrera"], drop_first=True)
+        df_filtered = df[(df["Carrera"].isin(carreras)) & (df["Team"].isin(equipos))]
 
-    # Eliminar nulos
-    df_merged = df_merged.dropna()
-
-    return df_merged
-
-
-
-def entrenar_modelo(riders, stages):
-    st.subheader("🚴‍♂️ Entrenar modelo de tiempo con perfil de etapa")
-    df = preparar_datos(riders, stages)
-    target = "Time_sec"
-    X = df.drop(columns=[target])
-    y = df[target]
-
-
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-    modelo = RandomForestRegressor(n_estimators=100, random_state=42)
-    modelo.fit(X_train, y_train)
-    score = modelo.score(X_test, y_test)
-    st.write(f"R² en test: {score:.2f}")
-
-    # Guardar modelo y columnas
-    pickle.dump((modelo, X.columns.tolist()), open("modelo.pkl", "wb"))
-    return modelo, X.columns.tolist()
-
-
-def hacer_prediccion(modelo_cols, cols=None):
-    if modelo_cols is None:
-        modelo, cols = pickle.load(open("modelo.pkl", "rb"))
+        entrenar_modelo(df_filtered)
     else:
-        modelo, cols = modelo_cols
-    st.subheader("Predicción de tiempo (segundos)")
-    entrada = {}
-    for c in cols:
-        entrada[c] = st.number_input(c, value=0.0)
-    if st.button("Predecir"):
-        df_in = pd.DataFrame([entrada])
-        pred = modelo.predict(df_in)[0]
-        st.success(f"Tiempo estimado: {int(pred//60)}m {int(pred%60)}s")
+        st.info("Por favor, sube un archivo CSV para comenzar.")
 
-def entrenar_modelo_clasificacion(riders, stages):
-    st.subheader("🏁 Clasificación: ¿Terminará en el Top 10?")
-    df = preparar_datos(riders, stages)
-    df["Top10"] = df["Rnk"] <= 10
+def entrenar_modelo(df):
+    st.subheader("Predicción de puntos por etapa")
+    st.markdown("Este modelo usa Random Forest para predecir los puntos en futuras etapas basado en la información disponible.")
 
-    X = df.drop(columns=["Time_sec", "Top10", "Rnk"])
-    y = df["Top10"]
-    
+    df_model = df.copy()
+    df_model = pd.get_dummies(df_model, columns=["Carrera", "Team", "Specialty"], drop_first=True)
 
-    X_train, X_test, y_train, y_test = train_test_split(X, y, stratify=y, test_size=0.2, random_state=42)
+    if "UCI_points" in df_model.columns and "stage" in df_model.columns:
+        X = df_model.drop(columns=["Rider", "UCI_points"])
+        y = df_model["UCI_points"]
 
-    modelo = RandomForestClassifier(n_estimators=100, random_state=42)
-    modelo.fit(X_train, y_train)
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-    st.write("🔍 Clasification report:")
-    y_pred = modelo.predict(X_test)
-    st.text(classification_report(y_test, y_pred))
+        model = RandomForestRegressor(n_estimators=100, random_state=42)
+        model.fit(X_train, y_train)
+        y_pred = model.predict(X_test)
 
-    # Guardar modelo
-    pickle.dump((modelo, X.columns.tolist()), open("modelo_clasificacion.pkl", "wb"))
+        mse = mean_squared_error(y_test, y_pred)
+        st.write(f"Error cuadrático medio del modelo: {mse:.2f}")
 
-    return modelo, X.columns.tolist()
+        st.markdown("### Estimar puntos para una etapa personalizada")
 
+        etapa = st.number_input("Número de etapa", min_value=1, step=1)
+        vuelta_sel = st.selectbox("Carrera", df["Carrera"].unique())
+        equipo_sel = st.selectbox("Team", df["Team"].unique())
+        tipo_rol_sel = st.selectbox("Tipo de rol", df["Specialty"].unique())
+        ciclista_sel = st.selectbox("Selecciona un ciclista", df["Rider"].unique())
+
+        input_dict = {col: 0 for col in X.columns}
+        input_dict["stage"] = etapa
+
+        for col in X.columns:
+            if vuelta_sel in col:
+                input_dict[col] = 1
+            if equipo_sel in col:
+                input_dict[col] = 1
+            if tipo_rol_sel in col:
+                input_dict[col] = 1
+
+        input_df = pd.DataFrame([input_dict])
+        pred_puntos = model.predict(input_df)[0]
+
+        st.success(f"{ciclista_sel} obtendría aproximadamente {pred_puntos:.2f} puntos en esta etapa")
+
+        # Ranking estimado
+        st.markdown("### Ranking estimado de puntos en esta etapa")
+        ranking_data = []
+        for corredor in df["Rider"].unique():
+            corredor_input = input_dict.copy()
+            puntos_est = model.predict(pd.DataFrame([corredor_input]))[0]
+            ranking_data.append({"Rider": corredor, "puntos_estimados": puntos_est})
+
+        ranking_df = pd.DataFrame(ranking_data).sort_values(by="puntos_estimados", ascending=False).reset_index(drop=True)
+
+        def format_row(row):
+            if row["Rider"] == ciclista_sel:
+                return f"**:green[{row['Rider']}]**"
+            return row["Rider"]
+
+        ranking_df["Rider"] = ranking_df.apply(format_row, axis=1)
+
+        st.dataframe(ranking_df[["Rider", "puntos_estimados"]])
+
+        # Exportar a Excel
+        st.markdown("### Exportar ranking a Excel")
+        excel_df = pd.DataFrame(ranking_data).sort_values(by="puntos_estimados", ascending=False)
+        output = BytesIO()
+        with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
+            excel_df.to_excel(writer, index=False, sheet_name='Ranking')
+        st.download_button(
+            label="📥 Descargar Excel",
+            data=output.getvalue(),
+            file_name="ranking_estimado.xlsx",
+            mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        )

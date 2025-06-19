@@ -10,7 +10,7 @@ import os
 from utils.filtros import aplicar_filtros_riders
 from utils.filtros import aplicar_filtros_comparaciones
 from utils.visualizaciones import mostrar_graficos_riders, mostrar_graficos_stages, mostrar_comparaciones
-from utils.modelo import entrenar_modelo, hacer_prediccion
+from utils.modelo import  cargar_modelo 
 
 
 #folder_path = r"C:\Users\victo\Downloads\Cycling_points_uci_VFG"
@@ -24,7 +24,7 @@ from utils.modelo import entrenar_modelo, hacer_prediccion
 
 
 st.set_page_config(page_title="Ciclismo ML", layout="wide")
-#st.title("Análisis y predicción de las 3 Grandes Vueltas desde 2015-2024")
+
 st.title("Análisis y Predicción de Puntos UCI en las Grandes Vueltas")
 st.markdown("Compara el rendimiento de ciclistas y equipos en el Tour, Giro y Vuelta y predice puntos futuros")
 
@@ -37,9 +37,20 @@ riders = pd.read_csv(csv_riders)
 stages = pd.read_csv(csv_stages, parse_dates=["Date"], dayfirst=True)
 
 opcion = st.sidebar.selectbox("Selecciona opción", [
-    "📊 Riders", "🔢 Stages" , "🔁 Comparaciones", "🔎  Modelo y predicción"])
+    "🏠 Inicio" , "📊 Riders", "🔢 Stages" , "🔁 Comparaciones", "🔎  Modelo y predicción"])
 
-if opcion == "📊 Riders":
+if opcion == "🏠 Inicio":
+    st.markdown("""
+    ## Bienvenido a la App de Análisis de Ciclismo
+    Esta aplicación te permite explorar datos de ciclistas y etapas, visualizar gráficos y entrenar modelos de predicción.
+    
+    ### Opciones:
+    - **📊 Riders**: Explora los datos de los ciclistas.
+    - **🔢 Stages**: Visualiza el perfil de las etapas.
+    - **🔁 Comparaciones**: Compara el rendimiento de ciclistas y equipos.
+    - **🔎 Modelo y predicción**: Entrena un modelo para predecir puntos UCI.
+    """)
+elif opcion == "📊 Riders":
     df = aplicar_filtros_riders(riders)
     mostrar_graficos_riders(df)
 elif opcion == "🔢 Stages":
@@ -48,6 +59,5 @@ elif opcion == "🔁 Comparaciones" :
     df = aplicar_filtros_comparaciones(riders)
     mostrar_comparaciones(df)
 else:
-    modelo, cols = entrenar_modelo(riders, stages)
-    hacer_prediccion(modelo, cols)
+    cargar_modelo()
 
